@@ -55,6 +55,7 @@ for (i in 1:bs$n)
 
 	writeValues(new, v, bs$row[i]) 
 	}
+
 # 其他可能的处理数据代码：
 # 把所有小于等于0的数据改成NA：v[v <= 0] <- NA 
 # 所有数据乘以10000：v <- v*10000
